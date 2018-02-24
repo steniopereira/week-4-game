@@ -1,0 +1,45 @@
+body {
+    background: url('../images/deathstar.png') no-repeat;
+    background-size: cover;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.col-5, .col-2, .col-12{
+    text-align: center;
+
+}
+
+.jumbotron{
+  height: 425px  
+}
+
+.rounded{
+    max-height: 100px;
+    margin: 0px;
+}
+#green-kyber{
+    background-color: rgb(10, 230, 10);
+}
+
+#blue-kyber{
+    background-color: rgb(44, 89, 212);
+}
+#purple-kyber{
+    background-color: rgb(168, 8, 168);
+}
+
+#red-kyber{
+    background-color: red;

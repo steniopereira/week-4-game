@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Kyber Crystals Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+                <div class="col-5">
+                <div class="jumbotron">
+                    <h1 class="display-6">Sith Attack</h1>
+                        <hr class="my-4">
+                    <h3>Number <h3 id="number"></h3></h3>
+                    <hr class="my-4">
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="jumbotron">
+                    <h1 class="display-6">Score</h1>
+                    <hr class="my-4">
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <h5>WINS <h5 id="numberWin"></h5></h5>
+                        </div>
+                        <div class="col-sm">
+                            <h5>LOSSES  <h5 id="numberLosses"></h5></h5>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-5">
+                <div class="jumbotron">
+                    <h1 class="display-6">Jedi Attack</h1>
+                        <hr class="my-4">
+                    
+                        <div class="row">
+                            <div class="col">
+                                <h3>Number  <h3 id="Combined"></h3></h3>
+                            </div>     
+                        </div>
+                            <hr class="my-4">
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary" id="green-kyber">
+                                    <img src="assets/images/green_kyber_crystal.jpg" alt="Green Kyber" class="rounded">
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn btn-primary" id="blue-kyber">
+                                    <img src="assets/images/blue_kyber_crystal.jpg" alt="Blue Kyber" class="rounded">
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn btn-primary" id="purple-kyber">
+                                    <img src="assets/images/purple_kyber_crystal.jpg" alt="Purple Kyber" class="rounded">
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn btn-primary" id="red-kyber">
+                                    <img src="assets/images/red_kyber_crystal.jpg" alt="Red Kyber" class="rounded">
+                                </button>
+                            </div>
+                        </div> <!-- row -->
+
+                    </div> <!-- jumbotron -->
+                </div>
+
+        </div>
+    </div> <!-- container -->
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <h1>INSTRUCTIONS</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10">
+                    <p>Welcome to the Kyber Crystals Collector game, where you use your observation and math skills to beat the newest Sith Lord.  Follow these instructions to learn how.</p>
+                    <ul>
+                        <li>
+                        The Sith attack begins when the random number is displayed at the start of the game.
+                        </li>
+                        
+                        <li>
+                        Each Kyber crystal has a unique value (between 1 and 12) assigned to it at the beginning of each battle.  Click on each Kyber crystal to add a specific value to your Jedi attack total. Pay close attention to the the value assigned to each crystal. 
+                        </li>
+                        
+                        <li>    
+                        Your goal is to match your Jedi Attack number with the Sith Attack number.  If you exceed the Sith Attack number, you lose that battle. 
+                        </li>        
+                        
+                        <li>
+                        A new battle begins after each match.  Refresh the screen to start a new game. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
